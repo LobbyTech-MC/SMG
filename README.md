@@ -1,20 +1,41 @@
-# Info
-SimpleMaterialGenerators (SMG for short) is a Slimefun4 addon that helps aliviate some of the grind by providing simple generators that create simple materials.<br>
+# SimpleMaterialGenerators - SMG - 简易材料生成器
 
-## What it adds
-Currently it adds generators for:<br>
-Cobblestone, Stone, Smooth stone, Gravel, Sand, Glass, Netherrack and Soul sand<br>
+SMG 是一个 Slimefun 附属插件，可以省去一些跑图寻找物品的过程，来通过材料生成器获取这些物品。
 
-## Using the generators
-The generators by themselves will do nothing - at least not until they have a chest (directly) above them.<br>
-(There's a multiblock example in the SMG category).<br>
-Then they will start producing items.<br>
-The `Rate` of their production is measured in Slimefun `Ticks`.<br>
+## 下载
 
-## Downloads
-You can find the prebuilt plugin in:<br>
-https://thebusybiscuit.github.io/builds/waleks647/SMG/master<br>
+**自动更新**: 汉化版构建#1及以上版本包含自动更新功能，默认开启。
 
-## Plans
-There are plans to add more generators in the future (once I figure out how to do it)<br>
-Namely generators for Dirt, Water, Lava, Obsidian and dusts.<br>
+点击这里下载 SMG: [下载 SMG](https://builds.guizhanss.net/SlimefunGuguProject/SMG/master)
+
+<p align="center">
+  <a href="https://github.com/SlimefunGuguProject/SMG/actions/workflows/maven.yml">
+    <img src="https://github.com/SlimefunGuguProject/SMG/actions/workflows/maven.yml/badge.svg" alt="Java CI"/>
+  </a>
+  <a href="https://builds.guizhanss.net/SlimefunGuguProject/SMG/master">
+    <img src="https://builds.guizhanss.net/f/SlimefunGuguProject/SMG/master/badge.svg" alt="Build status"/>
+  </a>
+</p>
+
+## 使用
+
+生成器需要在上方放置一个箱子才能工作，这属于多方块结构。
+
+然后，生成器就会不断生产物品，不需要任何其他操作。
+
+生成器的**速度**单位是 Slimefun Tick, 在默认情况下，1 t = 0.5 s
+
+## 可用的生成器
+
+目前有以下物品的生成器:
+
+- 圆石
+- 石头
+- 平滑石头
+- 沙砾
+- 沙子
+- 玻璃
+- 下界岩
+- 灵魂沙
+
+后续可能会添加更多。
