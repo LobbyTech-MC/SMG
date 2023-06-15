@@ -36,7 +36,7 @@
         <dependency>
             <groupId>com.github.Slimefun</groupId>
             <artifactId>Slimefun4</artifactId>
-            <version>RC-32</version>
+            <version>RC-33</version>
             <scope>provided</scope>
         </dependency>
 
@@ -49,8 +49,13 @@
         <dependency>
             <groupId>net.guizhanss</groupId>
             <artifactId>GuizhanLib</artifactId>
-            <version>0.9.7</version>
+            <version>1.2.1</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+        	<groupId>net.guizhanss</groupId>
+        	<artifactId>GuizhanLibPlugin</artifactId>
+        	<version>1.2.1</version>
         </dependency>
     </dependencies>
 

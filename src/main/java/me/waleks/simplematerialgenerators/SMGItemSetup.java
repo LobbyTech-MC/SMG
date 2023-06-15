@@ -1,10 +1,7 @@
 package me.waleks.simplematerialgenerators;
 
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-import me.waleks.simplematerialgenerators.items.BrokenGenerator;
-import me.waleks.simplematerialgenerators.items.GeneratorMultiblock;
-import me.waleks.simplematerialgenerators.items.MaterialGenerator;
+import javax.annotation.Nonnull;
+
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
