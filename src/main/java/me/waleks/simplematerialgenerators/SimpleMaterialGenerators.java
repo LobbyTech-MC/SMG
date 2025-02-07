@@ -7,7 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.config.Config;
-import net.guizhanss.guizhanlibplugin.updater.GuizhanBuildsUpdaterWrapper;
+import net.guizhanss.minecraft.guizhanlib.updater.GuizhanUpdater;
 
 public class SimpleMaterialGenerators extends JavaPlugin implements SlimefunAddon {
 
@@ -19,8 +19,9 @@ public class SimpleMaterialGenerators extends JavaPlugin implements SlimefunAddo
 
         Config cfg = new Config(this);
 
-        if (cfg.getBoolean("options.auto-update") && getDescription().getVersion().startsWith("Build ")) {
-        	GuizhanBuildsUpdaterWrapper.start(this, getFile(), "SlimefunGuguProject", "SMG", "master", false);
+        if (getConfig().getBoolean("auto-update")
+                && getDescription().getVersion().startsWith("Build")) {
+            GuizhanUpdater.start(this, getFile(), "SlimefunGuguProject", "SMG", "master");
         }
 
         SMGItemSetup.setup(this);
